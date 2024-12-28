@@ -1,0 +1,12 @@
+[submodule "Backend/shop2go"]
+	path = Backend/shop2go
+	url = https://github.com/NPeX-1/Shop2Go-REST
+[submodule "DesktopAdmin"]
+	path = DesktopAdmin
+	url = https://github.com/NPeX-1/Shop2Go-DesktopAdmin
+[submodule "Scraper"]
+	path = Scraper
+	url = https://github.com/NPeX-1/Shop2Go-WebScraper
+[submodule "Frontend/shop2go"]
+	path = Frontend/shop2go
+	url = https://github.com/NPeX-1/Shop2Go-Web
