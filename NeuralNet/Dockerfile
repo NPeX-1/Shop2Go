@@ -12,4 +12,6 @@ ENV SHARED_VOLUME_PATH=/shared_volume
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
+USER root
+
 CMD ["/entrypoint.sh"]
