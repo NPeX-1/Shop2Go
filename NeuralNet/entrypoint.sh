@@ -7,4 +7,4 @@ else
   echo "Dataset already exists in shared volume. Skipping copy."
 fi
 
-python server.py
+python /app/server.py

@@ -1,12 +1,11 @@
 from fastapi import FastAPI, UploadFile, File, Form
 import os
 import uuid
-from model import train_model, predict
+from model import train_model, predict, DATAFOLDER
 import uvicorn
 
 app = FastAPI()
 
-DATAFOLDER = "/shared_volume/dataset"
 NUMADDED_FILE = "/shared_volume/numadded.txt"
 
 def get_numadded():
