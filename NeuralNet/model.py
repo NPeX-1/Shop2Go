@@ -6,8 +6,10 @@ from torchvision import models, datasets, transforms
 from torch.utils.data import DataLoader, random_split, Dataset
 from PIL import Image
 
+from server import DATAFOLDER
+
 EPOCHS = 75
-DATAFOLDER = "dataset"
+#DATAFOLDER = "dataset"
 
 class CustomDataset(Dataset):
     def __init__(self, root, transform=None):
